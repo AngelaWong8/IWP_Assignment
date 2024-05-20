@@ -1,0 +1,325 @@
+body{	
+background-position:center top;
+background-size:cover;
+}
+
+.nav_bar-angela{
+	background-color:rgba(0,0,139,0.5);
+	font-family:Garamond,serif;
+	font-weight:bold;
+	color:gold;
+	text-shadow:rgba(255,253,208,1) 1px 1px;
+	font-size:1.7em;
+	margin-top:20px;
+	list-style-type:none;
+	margin:10px;
+	padding:10px;
+	text-align:right;
+	position:sticky;
+	top:0;
+	padding:5px;
+}
+
+.nav_bar-angela li{
+	display:inline-block;
+	padding:20px;
+}
+
+.nav_bar-angela a{
+	font-weight:bold;
+	color:gold;
+	text-shadow:rgba(255,253,208,1) 1px 1px;
+	text-decoration:none;
+}
+
+.nav_bar-angela a:visited{
+	font-weight:bold;
+	color:gold;
+	text-shadow:rgba(255,253,208,1) 1px 1px;
+	text-decoration:none;
+}
+
+.nav_bar-angela a:hover{
+	text-decoration:none;
+	font-weight:bold;
+	color:brown;
+	text-shadow:white 1px 1px;
+	cursor:wait;
+}
+
+.popUp0{
+	display:none;
+	color:black;
+	background-color:rgba(227, 186, 143,0.7);
+	font-family:Garamond;
+	font-size:1.2em;
+	float:right;
+	margin-right:475px;
+
+}
+
+.popUp1{
+	display:none;
+	color:black;
+	background-color:rgba(227, 186, 143,0.7);
+	font-family:Garamond;
+	font-size:1.2em;
+	float:right;
+	margin-right:300px;
+}
+
+.popUp2{
+	display:none;
+	color:black;
+	background-color:rgba(227, 186, 143,0.7);
+	font-family:Garamond;
+	font-size:1.2em;
+	float:right;
+	margin-right:100px;
+}
+
+.popUp3{
+	display:none;
+	color:black;
+	background-color:rgba(227, 186, 143,0.7);
+	font-family:Garamond;
+	font-size:1.2em;
+	float:right;
+	margin-right:15px;
+}
+
+#MMU_logo{
+	width:150px;
+	height:50px;
+	display:block;
+	background-color:;
+}
+
+/*footer for every page*/
+.footer1{
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:rgba(237,231,225,0.5);
+	display:flex;
+	padding: 0;
+	list-style-type:none;
+	margin:10px;
+	padding:10px;
+}
+
+.footer1 li{
+	display:inline;
+	
+}
+
+#Contact_Us{
+	width:30px;
+	height:30px;
+	margin-top:10px;
+	margin-left:150px;
+}
+
+/*intro main page*/
+.intro-angela{
+	text-align:center;
+}
+
+.intro-angela h1{
+	font-family:Brush Script MT;
+	font-size:6em;
+	letter-spacing:5px;
+	text-shadow:white 2px 2px;
+	color:brown;
+}
+
+.intro-angela h5{
+	float:right;
+	font-family:Times New Roman,serif;
+	font-size:1em;
+	font-weight:bold;
+	color:black;
+	font-style:italic;
+	background-color:white;
+	margin-top:-85px;
+	margin-right:55px;
+	padding:4px;
+	letter-spacing:0.5px;
+}
+
+.intro-angela p{
+	font-family:Georgia;
+	font-size:1.5em;
+	letter-spacing:0.75px;
+	display:inline-block;
+	width:600px;
+	height:160px;
+	position:relative;
+	left:15%;
+	background-color:rgba(255,255,255,0.7);
+	line-height:32px;
+}
+
+.intro-angela iframe{
+	float:right;
+	margin-right:60px;
+	margin-top:-50px;
+}
+
+#Email_us{
+	width:30px;
+	height:30px;
+	margin-top:10px;
+	margin-left:150px;
+}
+/*About us page*/
+.intro-about-us h1{
+	font-family:Garamond,serif;
+	text-align:center;
+	font-size:3.5em;
+	color:white;
+	text-shadow:black 2px 2px;
+}
+
+.intro-about-us h3{
+	font-family:Garamond,serif;
+	text-align:center;
+	font-size:2em;
+	color:white;
+	text-shadow:black 1.5px 1.5px;
+}
+
+.intro-about-us p{
+	display:inline-block;
+	background-color:rgba(237,231,225,0.7);
+	padding:4px;
+	position:relative;
+	left:90px;
+	font-size:1.1em;
+}
+
+.about-us-members{
+	display:flex;
+	justify-content:space-evenly;
+	gap:20px;
+}
+
+.about-us-members figure{
+	margin:0;
+	text-align:center;
+}
+
+.about-us-members img{
+	display:block;
+	width:300px;
+	height:400px;
+}
+
+.about-us-members figcaption{
+	margin-top:4px;
+}
+
+.about-us-members figcaption{
+	position:absolute;
+	color:white;
+	text-shadow:black 1px 1px;
+	background-color:rgba(130,94,92,1);
+	font-family:Garamond;
+	font-size:1.2em;
+	padding:3px;
+	text-align:center;
+}
+
+.about-us-desc div{
+	display:inline-block;
+	position:relative;
+	margin-top:30px;
+	background-color:white;
+	font-family:Georgia,serif;
+	font-size:20px;
+	letter-spacing:0.5px;
+	line-height:30px;
+	padding:10px;
+}
+
+.about-us-desc h2{
+	margin-left:10px;
+	color:brown;
+}
+
+.about-us-desc div span{
+	color:rgba(30,139,195,1);
+	font-style:italic;
+	font-weight:bold;
+	text-decoration:overline;
+}
+
+.about-us-desc div img{
+	display:block;
+	margin:auto;
+}
+
+.about-us-desc blockquote{
+	background-color:rgba(205,209,228,0.3);
+	border-left:10px solid #CCC;
+	margin:20px 0;
+	padding:20px;
+}
+
+#contact-us-h1-angela{
+	text-align:center;
+	text-shadow:white 2px 2px;
+	font-size:50px;
+}
+
+.contact-us-angela h2{
+	margin-left:5px;
+	color:brown;
+}
+
+.contact-us-angela p{
+	border-left:5px solid grey;
+	background-color:rgba(238,238,238,0.7);
+	margin:20px 0;
+	padding:20px;
+}
+
+.contact-us-angela{
+	display:block;
+	background-color:rgba(237,231,225,0.7);
+	padding:15px;
+	margin:20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+input, textarea {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-us-angela button{
+	background:brown;
+	color:white;
+	border:none;
+	padding:10px 20px;
+	border-radius:5px;
+}
+
+.contact-us-angela a{
+	text-decoration:none;
+}
+
+.contact-us-angela a:visited{
+	text-decoration:none;
+	color:brown;
+}
+
+.contact-us-angela a:hover{
+	cursor:wait;
+	text-decoration:overline;
+	font-weight:bold;
+}
